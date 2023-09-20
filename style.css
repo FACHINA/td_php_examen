@@ -1,0 +1,52 @@
+body,
+p,
+legend,
+input {
+    font: normal 10pt 'Courier New', Courier, monospace;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #0568cd;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568cd;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px solid #999;
+}
+
+.requis {
+    color: red;
+}
+
+/*Tableau*/
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: #0568cd;
+    border: 1px solid #0568cd;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
