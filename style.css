@@ -1,7 +1,8 @@
 body,
 p,
 legend,
-input {
+input,
+select {
     font: normal 10pt 'Courier New', Courier, monospace;
 }
 
@@ -22,7 +23,8 @@ form label {
     margin: 3px 0px 0px 0px;
 }
 
-form input {
+form input,
+form select {
     margin: 3px 3px 0px 0px;
     border: 1px solid #999;
 }
